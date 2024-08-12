@@ -53,13 +53,8 @@ function Hero() {
           Fullstack web developer with a passion for developing a new modern web
           apps for new better life{" "}
         </p>
-        <a
-          href={CV}
-          // download
-        >
-          <button className="hover" disabled>
-            My Resume
-          </button>
+        <a href={CV} download>
+          <button className="hover">My Resume</button>
         </a>
       </div>
     </section>
